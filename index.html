@@ -1,47 +1,59 @@
 <!DOCTYPE html>
-<html lamg = "ru">
+<html lang="ru">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Семестровая работа</title>
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
-        <div id="header">Хэдер</div>
-        <div id="menu">
-            <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="pages/news.html">Новости</a></li>
-                <li><a href="pages/practices.html">Практики</a></li> 
-                <li><a href="pages/goods.html">Товары</a></li>
-                <li><a href="pages/contacts.html">Контакты</a></li>
-            </ul>
-        </div>
-        <div id="content">
-            <p>Информация об авторе</p>
-            <img src="images/photo.png" alt="Фото автора" width="200" height="250">
-            <p> Богатырев Сергей Александрович</p>
-            <p>ЭФБО-15-24</p>
-            <p>Обо мне: Просто очень крутой чел</p>
-            <div>Навык 1</div>
-            <div>Навык 2</div>
-            <div>Навык 3</div>
-            <div>Навык 4</div>
-            <div>
-                Мой опыт работы:
-                <div>
-                    Опыт 1<br>
-                    Работал бариста. Разливал и готовил кофий.
+        <div class="page-container">
+            <div class="header">Ну очень крутой Хэдер</div>
+            <div class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/news.html">Новости</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/practices.html">Практики</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="pages/goods.html">Товары</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="profile-header">
+                    <h1 class="profile-title">Информация об авторе</h1>
+                    <img class="profile-photo" src="images/photo.png" alt="Фото автора">
+                    <h2 class="profile-name">Богатырев Сергей Александрович</h2>
+                    <p class="profile-group">ЭФБО-15-24</p>
                 </div>
-                <div>
-                    Опыт 2<br>
-                    Работал бариста. Поднимал и таскал.
+                
+                <div class="about-me">
+                    <p>Обо мне: Ну очень круто чел</p>
                 </div>
-                <div>
-                    Опыт 3<br>
-                    Работал бариста. Мыл и полоскал.
+                
+                <div class="skills-container">
+                    <div class="skill-tag">Навык 1</div>
+                    <div class="skill-tag">Навык 2</div>
+                    <div class="skill-tag">Навык 3</div>
+                    <div class="skill-tag">Навык 4</div>
+                </div>
+                
+                <div class="experience-section">
+                    <h2 class="section-title">Мой опыт работы</h2>
+                    <div class="experience-card">
+                        <h3 class="experience-title">Опыт 1</h3>
+                        <p class="experience-desc">Работал бариста. Разливал и готовил кофий.</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-title">Опыт 2</h3>
+                        <p class="experience-desc">Работал бариста. Поднимал и таскал.</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-title">Опыт 3</h3>
+                        <p class="experience-desc">Работал бариста. Мыл и затирал.</p>
+                    </div>
                 </div>
             </div>
+            <div class="footer">Ну чутка менее крутой Футер</div>    
         </div>
-        <div id="footer">Футер</div>    
     </body>
 </html>
