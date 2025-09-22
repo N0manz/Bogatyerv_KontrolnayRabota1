@@ -160,6 +160,10 @@ body {
     box-shadow: 0 5px 20px rgba(0,0,0,0.08); /* Легкая тень */
     border-left: 4px solid #667eea; /* Синяя полоса слева */
     transition: transform 0.3s ease; /* Плавная анимация трансформации */
+    width: 250px;
+    display: flex;
+        flex-direction: column;
+    align-items: center;
 }
 
 .experience-card:hover {
