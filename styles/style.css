@@ -254,8 +254,9 @@ main.content {
 
 .experience-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 колонки */
+    gap: 50px; /* отступы между карточками */
+    justify-items: center; /* сами карточки будут по центру своей колонки */
 }
 
 .experience-card {
@@ -464,7 +465,7 @@ dialog {
     box-shadow: 0 4px 15px rgba(79, 172, 254, 0.3);
     /* Тень с голубым оттенком */
     transition: all 0.3s ease;
-    
+
     
 }
 
