@@ -8,8 +8,10 @@
     </head>
     <body>
         <div class="page-container">
-            <div class="header">Ну очень крутой Хэдер</div>
-            <div class="nav">
+            <div class="header">
+                <h1>Ну очень крутой Хэдер</h1>
+            </div>
+            <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
                     <li class="nav-item"><a class="nav-link" href="pages/news.html">Новости</a></li>
@@ -17,43 +19,47 @@
                     <li class="nav-item"><a class="nav-link" href="pages/goods.html">Товары</a></li>
                     <li class="nav-item"><a class="nav-link" href="pages/contacts.html">Контакты</a></li>
                 </ul>
-            </div>
-            <div class="content">
-                <div class="profile-header">
+            </nav>
+            <main class="content">
+                <article class="profile-header">
                     <h1 class="profile-title">Информация об авторе</h1>
                     <img class="profile-photo" src="images/photo.png" alt="Фото автора">
                     <h2 class="profile-name">Богатырев Сергей Александрович</h2>
                     <p class="profile-group">ЭФБО-15-24</p>
-                </div>
+                </article>
                 
-                <div class="about-me">
+                <section class="about-me">
                     <p>Обо мне: Ну очень круто чел</p>
-                </div>
+                </section>
                 
-                <div class="skills-container">
+                <section class="skills-container">
                     <div class="skill-tag">Навык 1</div>
                     <div class="skill-tag">Навык 2</div>
                     <div class="skill-tag">Навык 3</div>
                     <div class="skill-tag">Навык 4</div>
-                </div>
+                </section>
                 
-                <div class="experience-section">
+                <section class="experience-section">
                     <h2 class="section-title">Мой опыт работы</h2>
-                    <div class="experience-card">
-                        <h3 class="experience-title">Опыт 1</h3>
-                        <p class="experience-desc">Работал бариста. Разливал и готовил кофий.</p>
+                    <div class="experience-grid"> 
+                        <article class="experience-card">
+                            <h3 class="experience-title">Опыт 1</h3>
+                            <p class="experience-desc">Работал бариста. Разливал и готовил кофий.</p>
+                        </article>
+                        <article class="experience-card">
+                            <h3 class="experience-title">Опыт 2</h3>
+                            <p class="experience-desc">Работал бариста. Поднимал и таскал.</p>
+                        </article>
+                        <article class="experience-card">
+                            <h3 class="experience-title">Опыт 3</h3>
+                            <p class="experience-desc">Работал бариста. Мыл и затирал.</p>
+                        </article>
                     </div>
-                    <div class="experience-card">
-                        <h3 class="experience-title">Опыт 2</h3>
-                        <p class="experience-desc">Работал бариста. Поднимал и таскал.</p>
-                    </div>
-                    <div class="experience-card">
-                        <h3 class="experience-title">Опыт 3</h3>
-                        <p class="experience-desc">Работал бариста. Мыл и затирал.</p>
-                    </div>
-                </div>
-            </div>
+                </section>
+            </main>
+            <footer class="footer">
+                Ну чутка менее крутой Футер
+            </footer>
         </div>
-        <div class="footer">Ну чутка менее крутой Футер</div>    
     </body>
 </html>

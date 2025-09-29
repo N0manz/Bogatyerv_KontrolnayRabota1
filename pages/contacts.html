@@ -1,33 +1,58 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Контакты</title>
-        <link rel="stylesheet" href="../styles/style.css">
-    </head>
-    <body>
-        <div class="page-container">
-            <div class="header">Ну очень крутой Хэдер</div>
-            <div class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
-                    <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
-                    <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li>
-                    <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
-                </ul>
-            </div>
-            <div class="content">
-                <h1 class="section-title">Контакты</h1>
-                <div class="experience-card">
-                    <p class="experience-desc">Электронная почта: <a href="mailto:pkb4-pnd8@zdrav.mos.ru">pkb4-pnd8@zdrav.mos.ru</a></p>
-                    <p class="experience-desc">Адрес: ул. Матросская Тишина, 20/1</p>
-                    <br/>
-                    <p class="experience-desc"><a class="skill-tag" href="tel:+74992680416">Позвоните мне</a></p>
-                </div>
-            </div>   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <div class="page-container">
+        <!-- Шапка -->
+        <div class="header">
+            <h1>Ну очень крутой Хэдер</h1>
         </div>
-        <div class="footer">Ну чутка менее крутой Футер</div> 
-    </body>
+
+        <!-- Навигация -->
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
+                <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li>
+                <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <!-- Контент -->
+        <main class="content">
+            <section class="experience-section">
+                <h1 class="section-title">Контакты</h1>
+                <div class="experience-grid">
+                    <article class="experience-card">
+                        <h3 class="experience-title">Электронная почта</h3>
+                        <p class="experience-desc">
+                            <a href="mailto:pkb4-pnd8@zdrav.mos.ru">pkb4-pnd8@zdrav.mos.ru</a>
+                        </p>
+                    </article>
+                    <article class="experience-card">
+                        <h3 class="experience-title">Адрес</h3>
+                        <p class="experience-desc">ул. Матросская Тишина, 20/1</p>
+                    </article>
+                    <article class="experience-card">
+                        <h3 class="experience-title">Телефон</h3>
+                        <p class="experience-desc">
+                            <a class="skill-tag" href="tel:+74992680416">Позвоните мне</a>
+                        </p>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <!-- Футер -->
+        <footer class="footer">
+            Ну чутка менее крутой Футер
+        </footer>
+    </div>
+</body>
 </html>

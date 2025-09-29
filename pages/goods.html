@@ -1,52 +1,65 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Каталог товаров</title>
-        <link rel="stylesheet" href="../styles/style.css">
-    </head>
-    <body>
-        <div class="page-container">
-            <div class="header">Ну очень крутой Хэдер</div>
-            <div class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
-                    <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
-                    <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li>
-                    <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
-                </ul>
-            </div>
-            <div class="content">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог товаров</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <div class="page-container">
+        <!-- Шапка -->
+        <header class="header">
+            <h1>Ну очень крутой Хэдер</h1>    
+        </header>
+
+        <!-- Навигация -->
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
+                <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li>
+                <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <!-- Контент -->
+        <main class="content">
+            <section class="experience-section">
                 <h1 class="section-title">Каталог товаров</h1>
-                <div class="skills-container">
+                <div class="experience-grid">
 
-                    <div class="experience-card">
-                    <img src="../images/goods1.jpg" alt="Товар 1" width="200">
-                    <h3 class="experience-title">Товар 1</h3>
-                    <p class="experience-desc">Не продаю чисто хвастаюсь что он есть</p>
-                    <p class="experience-desc">бесценно ₽</p>
-                    </div>
+                    <article class="experience-card">
+                        <img src="../images/goods1.jpg" alt="Товар 1" width="200">
+                        <h3 class="experience-title">Товар 1</h3>
+                        <p class="experience-desc">Не продаю, чисто хвастаюсь что он есть</p>
+                        <p class="experience-desc">Бесценно ₽</p>
+                    </article>
 
-                    <div class="experience-card">
-                    <img src="../images/goods2.jpg" alt="Товар 2" width="200">
-                    <h3 class="experience-title">Товар 2</h3>
-                    <p class="experience-desc">Стремный медведь в Ухте</p>
-                    <p class="experience-desc">850 ₽</p>
-                    </div>
+                    <article class="experience-card">
+                        <img src="../images/goods2.jpg" alt="Товар 2" width="200">
+                        <h3 class="experience-title">Товар 2</h3>
+                        <p class="experience-desc">Стремный медведь в Ухте</p>
+                        <p class="experience-desc">850 ₽</p>
+                    </article>
 
-                    <div class="experience-card">
-                    <img src="../images/goods3.jpg" alt="Товар 3" width="200">
-                    <h3 class="experience-title">Товар 3</h3>
-                    <p class="experience-desc">Крутая белка в маске</p>
-                    <p class="experience-desc">430 ₽</p>
-                    </div>
-                    
+                    <article class="experience-card">
+                        <img src="../images/goods3.jpg" alt="Товар 3" width="200">
+                        <h3 class="experience-title">Товар 3</h3>
+                        <p class="experience-desc">Крутая белка в маске</p>
+                        <p class="experience-desc">430 ₽</p>
+                    </article>
+
                 </div>
-            </div>
-        </div>
-        <div class="footer">Ну чутка менее крутой Футер</div> 
+            </section>
+        </main>
 
-    </body>
+        <!-- Футер -->
+        <footer class="footer">
+            Ну чутка менее крутой Футер
+        </footer>
+    </div>
+</body>
 </html>
+    
